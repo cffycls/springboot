@@ -1,4 +1,4 @@
-package com.cffy.gradle01.controller;
+package com.cffy.gradle01.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.cffy.gradle01.enums.SexEnum;
@@ -6,7 +6,6 @@ import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.sql.Date;
-import java.sql.Time;
 import java.time.LocalDateTime;
 
 @Data

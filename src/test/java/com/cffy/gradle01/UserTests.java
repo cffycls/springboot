@@ -1,13 +1,11 @@
 package com.cffy.gradle01;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.cffy.gradle01.controller.User;
+import com.cffy.gradle01.entity.User;
 import com.cffy.gradle01.mapper.UserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.sql.Timestamp;
 import java.util.List;
 
 @SpringBootTest
